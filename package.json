@@ -1,0 +1,22 @@
+{
+  "name": "connectwise-sdk-node",
+  "version": "0.0.1",
+  "description": "API wrapper around the Connectwise 2016 REST API",
+  "main": "index.js",
+  "scripts": { },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cmbankester/connectwise-sdk-node"
+  },
+  "author": {
+    "name": "Christian Michael Paul Bankester",
+    "email": "cbankester@immense.net"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmbankester/connectwise-sdk-node/issues"
+  },
+  "dependencies": {
+    "node-fetch": "^1.3.3",
+  }
+}
