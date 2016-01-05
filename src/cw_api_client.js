@@ -8,10 +8,7 @@ class CwApiClient {
   constructor(username, password, opts) {
     const _private = new Map()
       .set('password', password)
-      .set('username', username)
-      .set('raw_auth', new Buffer(
-        `${process.env.CW_COMPANY_NAME}+${process.env.CW_PUBLIC_KEY}:${process.env.CW_PRIVATE_KEY}`
-      ).toString('base64'));
+      .set('username', username);
 
     private_data.set(this, _private);
   }
